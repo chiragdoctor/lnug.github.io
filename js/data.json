@@ -1,1 +1,28 @@
-{"all": [{"username": "ForbesLindesay", "name": "Forbes Lindesay", "title": "Everything you didn't dare asking about jade", "avatar": "https://avatars.githubusercontent.com/u/1260646?v=3", "date": "February 25th 2015", "desc": "This talk will start with a very brief overview of what the jade templating language is and why it's so powerful.  It will then deep dive into how the nitty gritty of the compiler is implemented, this will include some discussion of the many other modules that jade depends on.  I will then take the audience on a tour of a couple of my favourite spinoffs of jade.  Finally, I will end with a description of how we have built a community around the jade project that is capable of achieving far more than I could on my own.<br><br>Any thoughts on this are welcome.  I think it would be a relatively long talk, maybe 1 hour."}, {"username": "lukebond", "name": "Luke Bond", "title": "Service discovery for your Node.js applications", "avatar": "https://avatars.githubusercontent.com/u/3177600?v=3", "date": "February 25th 2015", "desc": "A talk about service discovery in the context of Node.js. How to build services that talk to each other automatically and respond to changing IP address and ports.<br><br>The talk will be practical and technical, and focus on using Etcd as well as @pgte's Skiff Raft implementation. I may decide to do only the latter.<br><br>I plan to have an audience participation section at the end. Something along the lines of \"clone this repo and run it to discover each other's services and participate in solving some problem\"."}, {"username": "basicallydan", "name": "Daniel Hough", "title": "I'm a Node Module Maintainer (And so can you!)", "avatar": "https://avatars.githubusercontent.com/u/516325?v=3", "date": "February 25th 2015", "desc": "This is an idea for a fairly simple sort of tutorial on creating, releasing, maintaining, versioning, getting input for, etc, etc an open-source node module. Including:<br><br>* Some good practices when versioning, releasing, and documenting your open-source code<br>* Some NPM tips<br>* How to make your code inclusive<br>* Some GitHub tips<br><br>Just to show that I have at least some of the experience necessary for this, I currently am actively maintaining two packages and I've put a couple of others onto NPM: https://www.npmjs.org/~basicallydan and I've picked up a few things along the way.<br><br>If this sounds like it's too simple for LNUG, please let me know - I've only been to one event so far, and it seems to me like there's a fairly wide variety of experience levels at the usergroup so I'm sure some people would benefit.<br><br>Thoughts?<br><br>Preferred Month: February 2015"}]}
+{
+    "all":[
+        {
+            "username":"mikeal",
+            "name":"Mikeal Rogers",
+            "title":"Node Foundation Q&A",
+            "avatar":"https://avatars1.githubusercontent.com/u/579?v=3",
+            "date":"July 22nd 2015",
+            "desc":"Mikeal will be answering questions about the Node Foundation. <br /><br /> <b>Please <a href='https://docs.google.com/forms/d/1XvqIY3OroqUaxQPlfIc1VsCKzsbg1VbzbXrD4IHlx3w/viewform'>submit</a> your questions by Friday 17th July</b>"
+        },
+        {
+            "username":"jdNash",
+            "name":"Joe Nash",
+            "title":"Insert Token: Immersive UX with Tokenization",
+            "avatar":"https://avatars3.githubusercontent.com/u/1790822?v=3",
+            "date":"July 22nd 2015",
+            "desc":"Users of our apps and products yearn to be immersed; but so often, the worlds we build with software show surprising seams, shattering immersion for our users. In this talk, we'll look at the magic of tokenization, and how it can transform the UX of your application."
+        },
+        {
+            "username":"izaakrogan",
+            "name":"Izaak Rogan",
+            "title":"Founders & Coders",
+            "avatar":"https://avatars0.githubusercontent.com/u/4929798?v=3",
+            "date":"July 22nd 2015",
+            "desc":"Founders &amp; Coders are a non-profit organisation, run with the objective of providing a first class training in full-stack JS, for free. <br /><br /> In this talk we will discuss the origins of Founders &amp; Coders; why we started and our original goals. We will then talk about the last 18 months; how the organisation has developed and how our curriculum has shifted dramatically as we have experimented with different educational models. We will then talk briefly about the future of F&amp;C; what we have planned and where we think our organisation is going.</p>"
+        }
+    ]
+}

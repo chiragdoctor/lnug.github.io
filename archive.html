@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="//code.jquery.com/jquery.min.js"></script>
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+<script src="js/populate.js"></script>
+  <link href='//fonts.googleapis.com/css?family=Open+Sans:300,400,700' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="css.css">
+  <meta charset="utf-8">
+  <title>LNUG - London Node User Group - Talks Archive</title>
+  <meta name="description" content="London Node.js User Group is a meetup for developers but everyone is welcome. We meet every month to talk about Node, Javascript and to network">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+<div class="container">
+  <div class="row">
+    <div class="col-xs-12 lnug-hero">
+      <div class="lnug-header img-responsive">
+      </div>
+      <div class="lnug-headline text-center"><h1>A meetup hosted monthly in London, LNUG is for people who use Node.js for fun or profit.</h1></div>
+      <div class="row">
+        <div class="lnug-menu col-lg-12">
+            <div class="lnug-menu-textblock col-lg-8 col-lg-offset-2">
+              <div class="lnug-menu-text col-xs-12 col-lg-3"><a href="/">This month</a></div>
+              <div class="lnug-menu-text col-xs-12 col-lg-3"><a href="/archive">Archive</a></div>
+              <div class="lnug-menu-text col-xs-12 col-lg-3"><a href="https://gitter.im/lnug/discuss" target="_blank">Discuss</a></div>
+              <div class="lnug-menu-text col-xs-12 col-lg-3"><a id="lnug-tkt" href="" target="_blank">Free Tickets</a><script>displayTickets();</script></div>
+            </div>
+        </div>
+      </div>
+      <div class="lnug-nextevent">
+        <div class="text-center">
+          <p>Next meetup: <span class="lnug-nextmeetup">March 25th</span><script>displayDate();</script></p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <div class="row">
+    <div class="row lnug-sectiondesc">
+       <div class="col-xs-12 col-md-8 text-center talk-label ">Archive</div>
+       <div class="col-xs-12 col-md-4 text-center sponsor-label hidden-sm hidden-xs">Sponsors</div>
+    </div>
+
+    <div class="col-xs-12 col-md-8 col-lg-8 lnug-archive">
+    <script type="text/javascript">displayArchive();</script>
+    </div>
+
+    <div class="col-xs-12 col-md-4 col-lg-4 lnug-sidebar text-center">
+        <ul class="list-unstyled">
+          <li>
+            <a href="http://www.stackoverflow.com" target="_blank" title="Stackoverflow homepage, proud sponsor of LNUG">
+              <img src="./public/stackoverflow.jpg" alt="Stackoverflow">
+            </a>
+          </li>
+          <li>
+            <a href="http://www.yld.io" target="_blank" title="YLD homepage, proud sponsor of LNUG">
+              <img   src="./public/yld.jpg" alt="YLD">
+            </a>
+          </li>
+          <li>
+            <a href="http://www.artificial.io" target="_blank" title="Artificial homepage, proud sponsor of LNUG">
+              <img src="./public/artificial-labs.jpg" alt="Artificial Labs">
+            </a>
+          </li>
+          <li>
+            <a href="http://www.nexttick.io" target="_blank" title="Nexttick homepage, proud sponsor of LNUG">
+              <img  src="./public/nexttick.jpg" alt="Nexttick">
+            </a>
+          </li>
+          <li>
+            <a href="https://www.braintreepayments.com/" target="_blank" title="BrainTree Payments homepage, proud sponsor of LNUG">
+              <img src="./public/braintree.png" alt="BrainTree Payments">
+            </a>
+          </li>
+          <li>
+            <a href="http://www.opentable.com/" target="_blank" title="Open Table homepage, proud sponsor of LNUG">
+              <img src="./public/opentable.jpg" alt="Open Table">
+            </a>
+          </li>
+
+        </ul>
+    <div class="twitter-label lnug-sectiondesc">Tweets</div>
+    <div class="twitter-widget"><a class="twitter-timeline" data-dnt="true" href="https://twitter.com/LNUGorg" data-widget-id="568413083740422144">@LNUGORG</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script></div>
+    </div>
+  </div>
+
+
+   <!--<div class="row lnug-sectiondesc">
+       <div class="col-xs-12 text-center talk-label ">Latest Jobs</div>
+
+    </div> -->
+
+  <div class="row">
+    <div class="col-xs-12 lnug-footer">
+      <ul class="lnug-footer-text">
+        <li><a href="code-of-conduct" title="code-of-conduct">Code of Conduct</a></li>
+        <li><a href="mailto:contact@lnug.org?Subject=LNUG+site+question">Contacts</a></li>
+        <li><a href="http://nexttick.us8.list-manage.com/subscribe?u=9ebd291b0179eceff6533b0da&id=f7e81cdb7a" target="_blank" title="The monthly newsletter">Newsletter</a></li>
+        <li><a href="//github.com/lnug/speak" target="_blank" title="speakers application">Apply to Speak</a></li>
+      </ul>
+      <ul class="lnug-footer-text">
+        <li>LNUG 2015 - THE nodejs meetup in London</li>
+      </ul>
+    </div>
+  </div>
+</div>
+</body>
+</html>
