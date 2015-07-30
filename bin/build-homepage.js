@@ -33,7 +33,6 @@ function speakerSelectors(speaker) {
   };
 }
 
-
 var speakers = data.map(function(speaker) {
   var selectors = speakerSelectors(speaker);
   return sizlate.doRender(speakerTemplate, selectors);
@@ -42,6 +41,5 @@ var speakers = data.map(function(speaker) {
 var out = sizlate.doRender(indexTemplate, {
   '.lnug-content': speakers.join(' ')
 });
-
 
 fs.writeFileSync('./index.html', out, 'utf8');

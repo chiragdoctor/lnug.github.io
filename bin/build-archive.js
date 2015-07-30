@@ -28,7 +28,6 @@ function speakerSelectors(speaker) {
   };
 }
 
-
 var dates = [];
 Object.keys(data).reverse().forEach(function(key) {
   dates.push('<dl><dt>', data[key].date, '</dt>');
@@ -40,11 +39,7 @@ Object.keys(data).reverse().forEach(function(key) {
   });
 
   dates.push('</dl>');
-
-
 });
-
-
 
 var out = sizlate.doRender(indexTemplate, {
   '.lnug-content': {

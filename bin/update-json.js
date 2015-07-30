@@ -38,14 +38,13 @@ function modelArchive(talk) {
   };
 }
 
+/**
+Nothing in here to strip out future events at the moment.
 
-  /**
-  Nothing in here to strip out future events at the moment.
+If its accepted, schedules and has a milestone it will appear in the archive
+even if in the future.
 
-  If its accepted, schedules and has a milestone it will appear in the archive
-  even if in the future.
-
-  **/
+**/
 function archive(talks) {
   var old = require('../data/archive.json');
   var recentMonthsByMilestone = talks.reduce(function(dates, talk) {
@@ -56,7 +55,6 @@ function archive(talks) {
     dates[talk.milestone].push(modelArchive(talk));
     return dates;
   }, {});
-
 
   for (var milestone in recentMonthsByMilestone) {
     var m = new Moment();
@@ -70,8 +68,8 @@ function archive(talks) {
     old[date].date = milestone;
     old[date].speakers = recentMonthsByMilestone[milestone];
 
-    console.log('Updating ', milestone, '(' + date + ')');
-    console.log('with: ', JSON.stringify(old[date], null, 4));
+    // console.log('Updating ', milestone, '(' + date + ')');
+    // console.log('with: ', JSON.stringify(old[date], null, 4));
   }
 
   fs.writeFile('./data/archive.json', JSON.stringify(old, null, 4), function(e) {
